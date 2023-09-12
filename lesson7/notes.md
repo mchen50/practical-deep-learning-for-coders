@@ -19,3 +19,5 @@ there is a technique that can pull out the most important underlying directions 
 [Things that confused me about cross-entropy](https://chris-said.io/2020/12/26/two-things-that-confused-me-about-cross-entropy/)
 
 [Computational Linear Algebra for Coders](https://github.com/fastai/numerical-linear-algebra)
+
+[FastBook Chapter 8 Collaborative Filtering Deep Dive](https://github.com/fastai/fastbook/blob/master/08_collab.ipynb)
