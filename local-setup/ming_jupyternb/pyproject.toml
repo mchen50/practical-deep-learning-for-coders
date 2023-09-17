@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "ming-jupyternb"
+version = "0.1.0"
+description = ""
+authors = ["Ming Chen <ming.chen@woven-planet.global>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.2"
+torch = {version = "^2.0.1+cu118", source = "pytorch-gpu-src"}
+torchvision = {version = "^0.15.2+cu118", source = "pytorch-gpu-src"}
+torchaudio = {version = "^2.0.2+cu118", source = "pytorch-gpu-src"}
+matplotlib = "^3.8.0"
+scikit-learn = "^1.3.0"
+pandas = "^2.1.0"
+fastai = "^2.7.12"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+black = "^23.9.1"
+tensorboard = "^2.14.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+
+
+[[tool.poetry.source]]
+name = "pytorch-gpu-src"
+url = "https://download.pytorch.org/whl/cu118"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

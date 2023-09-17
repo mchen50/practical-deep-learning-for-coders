@@ -144,3 +144,5 @@ atlassian-ide-plugin.xml
 **/.DS_Store
 
 .vscode/
+.pytest_cache/
+__pycache__/
